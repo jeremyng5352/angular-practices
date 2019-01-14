@@ -1,0 +1,29 @@
+section#main-container {
+    width: 100vw;
+    height: 100vh;
+    background: transparentize($color: #000000, $amount: 0.975);
+    padding: 5vh 5vw;
+}
+
+section#section-container {
+    padding-top: 2.5vh;
+}
+
+.example-card {
+    max-width: 400px;
+    border: transparentize($color: #3F52B5, $amount: 0.5) solid 2px;
+}
+
+button {
+    background: #3F52B5;
+    color: white;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 10pt;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.9;
+    }
+}
